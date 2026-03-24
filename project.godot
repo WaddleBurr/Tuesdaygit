@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="tuesdaygit"
+run/main_scene="uid://c2rqeso6faqq3"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[editor]
+
+version_control/plugin_name="GitPlugin"
+version_control/autoload_on_startup=true
 
 [physics]
 
